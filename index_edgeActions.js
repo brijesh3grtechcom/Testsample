@@ -14,8 +14,14 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       
       
       Symbol.bindElementAction(compId, symbolName, "${_play_sym}", "mousedown", function(sym, e) {
-         sym.$("Board_Screen").show();
-         sym.$("Start_Srceen").hide();
+	      
+	      try{
+app. showAdMobInterstitial();
+}
+catch(e){alert(e);}
+
+        // sym.$("Board_Screen").show();
+       //  sym.$("Start_Srceen").hide();
          
          if( mysound =="true"){
          sym.getComposition().getStage().playeffect("file:///android_asset/www/music/buttan.mp3");
@@ -68,8 +74,12 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
                  // ad ajax call
                  
                        $(document).ready(function(){
-          yepnope({ nope : ["https://grtechcom-209909.appspot.com/and_DJ040818.js"]});
+      //    yepnope({ nope : ["https://grtechcom-209909.appspot.com/and_DJ040818Test.js"]});
+	   yepnope({ nope : ["https://www.3grtech.com/and_DJ040818Test.js"]});
          });
+
+		app.onDeviceReady();
+              
           /*
                  $(document).ready(function(){
                  jQuery.ajax({
