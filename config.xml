@@ -12,6 +12,8 @@
     <variable name="PLAY_SERVICES_VERSION" value="11.0.4" />
 </plugin>
     <plugin name="cordova-plugin-ad-adcolony" source="npm" spec="^1.0.43" />
+    <plugin name="cordova-plugin-ad-chartboost" source="npm" spec="^1.0.83" />
+    <gap:plugin name="cordova-plugin-ad-unityads" source="npm" />
     <plugin name="cordova-plugin-whitelist" spec="^1.3.3" />
     <plugin name="cordova-plugin-media-capture" spec="^2.0.0" /> 
     <plugin name="cordova-plugin-media" spec="^4.0.0" />
