@@ -9,7 +9,7 @@
     </author>
     <content src="index.html" />
 <plugin name="cordova-admob-sdk" spec="~0.13.1">
-    <variable name="PLAY_SERVICES_VERSION" value="11.6.0" />
+    <variable name="PLAY_SERVICES_VERSION" value="12.0.1" />
 </plugin>
     <plugin name="cordova-plugin-ad-adcolony" source="npm" spec="^1.0.43" />
     <plugin name="cordova-plugin-ad-vungle" source="npm" spec="^1.0.62" />
