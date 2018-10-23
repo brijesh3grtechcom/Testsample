@@ -15,7 +15,6 @@
     <gap:plugin name="cordova-plugin-ad-vungle" source="npm" />
     <plugin name="cordova-plugin-whitelist" spec="^1.3.3" />
     <plugin name="cordova-plugin-media-capture" spec="^2.0.0" />    
-<plugin name="cordova-plugin-media" spec="^4.0.0" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
